@@ -17,10 +17,6 @@ class App extends React.Component {
     this.setState({ [e.target.name]: e.target.value })
   }
 
-  validateField = field => {
-    console.log(field)
-  }
-
   render() {
     const { username, email, password } = this.state
     return (

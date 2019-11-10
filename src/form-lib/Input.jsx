@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react"
 import useFormElement from "./FormElement"
 
-const Input = forwardRef(({ name, validate, type, value, onChange, className, ...props }, ref) => {
+const Input = forwardRef(({ name, type, value, onChange, className, ...props }, ref) => {
     const { inputRef } = useFormElement(ref)
     return (
       <input
